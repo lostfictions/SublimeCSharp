@@ -3,20 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Symbol List: Inner Inner Method</string>
+	<string>Symbol List: Namespace</string>
 	<key>scope</key>
-	<string>source.cs meta.class.body meta.class.body meta.class.body meta.method.identifier</string>
+	<string>source.cs meta.namespace.identifier entity.name.type.namespace</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
-		<string>
-		s/\s{2,}/ /g;
-		s/.*/      $0/g;
-	</string>
+		<string>s/.*/namespace $0/</string>
 	</dict>
 	<key>uuid</key>
-	<string>FB3EF230-FC68-46A6-90C5-F3B0444EDAA7</string>
+	<string>95D35D87-7EE3-473B-967C-58CB05EDAE49</string>
 </dict>
 </plist>
