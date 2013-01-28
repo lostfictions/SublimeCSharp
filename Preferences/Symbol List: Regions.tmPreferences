@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Symbol List: Region</string>
+	<string>Symbol List: Regions</string>
 	<key>scope</key>
 	<string>source.cs meta.toc-list.region</string>
 	<key>settings</key>
@@ -12,9 +12,9 @@
 		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>
-		s/\s{2,}/ /g;
-		s/.*/#$0/g;
-	</string>
+			s/\s{2,}/ /g;
+			s/.*/#$0/;
+		</string>
 	</dict>
 	<key>uuid</key>
 	<string>440FA400-56E4-4E3A-9678-08505535F666</string>

@@ -5,13 +5,13 @@
 	<key>name</key>
 	<string>Symbol List: Inner Classes</string>
 	<key>scope</key>
-	<string>source.cs meta.class.body meta.class.identifier</string>
+	<string>source.cs meta.class.body meta.class.identifier entity.name.type.class</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
 		<integer>1</integer>
 		<key>symbolTransformation</key>
-		<string>s/.*/  $0/g</string>
+		<string>s/.*/    class $0/</string>
 	</dict>
 	<key>uuid</key>
 	<string>A566BBA1-5824-427C-8B81-3C84FDDBD795</string>
